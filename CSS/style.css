@@ -1,0 +1,20 @@
+/*Cabeçalho*/
+.cabeca{
+    background-color: rgb(28, 28, 92);
+    text-align: center;
+}
+.logo_inicio{
+    border-radius: 50%;
+  
+ 
+}
+body{
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(28, 28, 92);
+    color: #ffffff;
+    padding-top: 0 !important;
+}
