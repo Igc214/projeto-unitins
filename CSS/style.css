@@ -8,10 +8,24 @@
   
  
 }
+
+/*Corpo da página*/
 body{
     margin: 0;
 }
 
+.conteiner{
+    text-align: center;
+}
+
+.divisao{
+    background-color: rgb(28, 28, 92);
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+
+}
+/*Rodapé*/
 footer {
     text-align: center;
     background-color: rgb(28, 28, 92);
