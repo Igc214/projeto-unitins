@@ -25,6 +25,26 @@ body{
     padding: 1em;
 
 }
+/*Parte dos cards*/
+#card{
+    padding: 2em
+}
+
+/*Contato*/
+.contato{
+    background-color: rgb(28, 29, 92);
+    color: #ffffff;
+    text-align: center;
+    padding: 2em;
+}
+.Enviar_button{
+   text-align: left;
+}
+
+.btnbot {
+    margin-right: 100%;
+}
+
 /*Rodapé*/
 footer {
     text-align: center;
@@ -32,3 +52,6 @@ footer {
     color: #ffffff;
     padding-top: 0 !important;
 }
+
+
+
