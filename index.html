@@ -14,19 +14,21 @@
 
 <body>
   <section>
-    <header id="#home">
+    <header id="home">
       <div class="cabeca">
         <figure>
           <img class="logo_inicio" src="img/logo.jpg" width="10%" height="10%">
         </figure>
-        <button> <a href="#home">HOME</a></button>
-        <button> <a href="#pacotes">PACOTES</a></button>
-        <button> <a href="#contato">CONTATOS</a></button>
-       
+        <div class="links">
+          <a href="#home">HOME</a>
+          <a href="#pacotes">PACOTES</a>
+          <a href="#contato">CONTATOS</a>
+        </div>
       </div>
     </header>
+  
   </section>
-   <!-- Carousel -->
+  <!-- Carousel -->
 
   <section>
     <!-- Carousel -->
@@ -38,7 +40,7 @@
         <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-       
+
       </div>
 
       <!-- The slideshow/carousel -->
@@ -56,8 +58,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="img/Pôr_do_Sol_-_Dunas_do_Jalapão.jpg" 
-            class="d-block w-100 img-car">
+          <img src="img/Pôr_do_Sol_-_Dunas_do_Jalapão.jpg" class="d-block w-100 img-car">
           <div class="carousel-caption">
             <h3>Pôr do sol</h3>
           </div>
@@ -76,7 +77,7 @@
   </section>
 
   <!--Divisão da página-->
-  <div class="divisao">
+  <div class="divisao" id="pacotes">
     <h2>Conheça o Tocantins</h2>
   </div>
 
@@ -86,30 +87,39 @@
         <div class="col-md-4">
           <div class="card" style="width:100%">
             <a name="pacotes01"></a>
-            <img class="card-img-top" src="img/jalapão-fervedouro.jpg" alt="Card image" style="height:200px; object-fit:cover;">
+            <img class="card-img-top" src="img/jalapão-fervedouro.jpg" alt="Card image"
+              style="height:200px; object-fit:cover;">
             <div class="card-body">
               <h4 class="card-title">Jalapão</h4>
-              <p class="card-text">O Jalapão, no Brasil, é uma região de beleza selvagem, com dunas, cachoeiras e rios cristalinos. É um paraíso para o ecoturismo e aventuras ao ar livre, conhecido por sua biodiversidade e paisagens únicas.</p>
+              <p class="card-text">O Jalapão, no Brasil, é uma região de beleza selvagem, com dunas, cachoeiras e rios
+                cristalinos. É um paraíso para o ecoturismo e aventuras ao ar livre, conhecido por sua biodiversidade e
+                paisagens únicas.</p>
               <a href="#" class="btn btn-primary">Comprar</a>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card" style="width:100%">
-            <img class="card-img-top" src="img/palmas-imagem.png" alt="Card image" style="height:200px; object-fit:cover;">
+            <img class="card-img-top" src="img/palmas-imagem.png" alt="Card image"
+              style="height:200px; object-fit:cover;">
             <div class="card-body">
               <h4 class="card-title">Palmas</h4>
-              <p class="card-text">Palmas é a capital do Tocantins, Brasil. Fundada em 1989, é uma cidade planejada, com atrações como o Parque Cesamar, Praia da Graciosa e a cultura indígena presente em festivais. Se destaca pela qualidade de vida.</p>
+              <p class="card-text">Palmas é a capital do Tocantins, Brasil. Fundada em 1989, é uma cidade planejada, com
+                atrações como o Parque Cesamar, Praia da Graciosa e a cultura indígena presente em festivais. Se destaca
+                pela qualidade de vida.</p>
               <a href="#" class="btn btn-primary">Comprar</a>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card" style="width:100%">
-            <img class="card-img-top" src="img/miracema-imagem.png" alt="Card image" style="height:200px; object-fit:cover;">
+            <img class="card-img-top" src="img/miracema-imagem.png" alt="Card image"
+              style="height:200px; object-fit:cover;">
             <div class="card-body">
               <h4 class="card-title">Miracema</h4>
-              <p class="card-text">Miracema do Tocantins, no Brasil, é famosa por sua tranquilidade e natureza exuberante, à beira do Rio Tocantins. Com economia voltada à agropecuária e turismo, destaca-se pela Praias e Festa como o do Miracaxi.</p>
+              <p class="card-text">Miracema do Tocantins, no Brasil, é famosa por sua tranquilidade e natureza
+                exuberante, à beira do Rio Tocantins. Com economia voltada à agropecuária e turismo, destaca-se pela
+                Praias e Festa como o do Miracaxi.</p>
               <a href="#" class="btn btn-primary">Comprar</a>
             </div>
           </div>
@@ -117,11 +127,11 @@
       </div>
     </div>
   </section>
-  
+
 
   <!--Contato-->
 
-  <section>
+  <section id="contato">
     <div class="contato">
       <h2>Fale conosco</h2>
       <div class="col-6">
@@ -140,11 +150,11 @@
         </div>
       </div>
   </section>
-  
+
 
 </body>
 
-<footer> 
+<footer>
   <h5> &copy; 2023 TocantinsTur. Todos os direitos reservados a Igor Carvalho e Jeferson Júnior </h5>
 </footer>
 
